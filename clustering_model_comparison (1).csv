@@ -1,0 +1,41 @@
+model,algorithm,parameters,n_clusters,noise_pct,coverage_pct,metric_scope,silhouette,calinski_harabasz,davies_bouldin,inertia
+KMeans_k2,K-Means,{'n_clusters': 2},2,0.0,100.0,all products,0.4616473847025136,676.2045212978182,0.9597258991639207,475.0201082346583
+KMeans_k3,K-Means,{'n_clusters': 3},3,0.0,100.0,all products,0.5765941188142756,737.1739472406376,1.1675300921614553,321.4779837860768
+KMeans_k4,K-Means,{'n_clusters': 4},4,0.0,100.0,all products,0.6129825834835372,638.5507327702401,1.178901776777845,272.5899282373935
+KMeans_k5,K-Means,{'n_clusters': 5},5,0.0,100.0,all products,0.644882186740351,607.0049591247798,1.2025967435711293,231.63470476369068
+KMeans_k6,K-Means,{'n_clusters': 6},6,0.0,100.0,all products,0.6668435684103284,578.4431314317651,1.2120523140591797,203.82124527921437
+KMeans_k7,K-Means,{'n_clusters': 7},7,0.0,100.0,all products,0.5201739852352795,542.1028308253816,1.1922923163375978,186.37961052733698
+KMeans_k8,K-Means,{'n_clusters': 8},8,0.0,100.0,all products,0.5305929184621102,514.6110696097714,1.200727517926994,172.06178071138243
+KMeans_k9,K-Means,{'n_clusters': 9},9,0.0,100.0,all products,0.5308965269367262,493.01021871247025,1.2099922324064558,160.0181579621497
+KMeans_k10,K-Means,{'n_clusters': 10},10,0.0,100.0,all products,0.5478024076619108,476.12126135476586,1.1980799018041213,149.55301505623916
+Agglomerative_ward_k2,Agglomerative hierarchical,"{'n_clusters': 2, 'linkage': 'ward'}",2,0.0,100.0,all products,0.4616473847025136,676.2045212978182,0.9597258991639207,
+Agglomerative_ward_k3,Agglomerative hierarchical,"{'n_clusters': 3, 'linkage': 'ward'}",3,0.0,100.0,all products,0.5765941188142756,737.1739472406376,1.167530092161455,
+Agglomerative_ward_k4,Agglomerative hierarchical,"{'n_clusters': 4, 'linkage': 'ward'}",4,0.0,100.0,all products,0.6129825834835372,638.5507327702401,1.178901776777845,
+Agglomerative_ward_k5,Agglomerative hierarchical,"{'n_clusters': 5, 'linkage': 'ward'}",5,0.0,100.0,all products,0.644882186740351,607.0049591247798,1.2025967435711293,
+Agglomerative_ward_k6,Agglomerative hierarchical,"{'n_clusters': 6, 'linkage': 'ward'}",6,0.0,100.0,all products,0.6668435684103284,578.4431314317651,1.2120523140591797,
+Agglomerative_ward_k7,Agglomerative hierarchical,"{'n_clusters': 7, 'linkage': 'ward'}",7,0.0,100.0,all products,0.4968775342678302,536.82160426971,1.1923453114229174,
+Agglomerative_ward_k8,Agglomerative hierarchical,"{'n_clusters': 8, 'linkage': 'ward'}",8,0.0,100.0,all products,0.5073109952958803,509.30822667712346,1.2008230811946743,
+Agglomerative_ward_k9,Agglomerative hierarchical,"{'n_clusters': 9, 'linkage': 'ward'}",9,0.0,100.0,all products,0.5164199233285742,487.9474276853427,1.21013222643357,
+Agglomerative_ward_k10,Agglomerative hierarchical,"{'n_clusters': 10, 'linkage': 'ward'}",10,0.0,100.0,all products,0.5244710343742989,470.6795124231868,1.1984349405679877,
+DBSCAN_eps0.071_min5,DBSCAN,"{'eps': 0.071, 'min_samples': 5}",14,34.6,65.4,clustered products only,0.1391187432922099,845.1700879148228,0.7208314762495533,
+DBSCAN_eps0.071_min10,DBSCAN,"{'eps': 0.071, 'min_samples': 10}",7,55.7,44.3,clustered products only,0.48873686041362446,1617.9660682993717,0.49427791012557964,
+DBSCAN_eps0.086_min5,DBSCAN,"{'eps': 0.086, 'min_samples': 5}",12,26.2,73.8,clustered products only,0.5513899596755538,937.7837496988712,0.4966600431466495,
+DBSCAN_eps0.086_min10,DBSCAN,"{'eps': 0.086, 'min_samples': 10}",5,39.3,60.7,clustered products only,0.5323122791790684,1857.1430654093936,0.41208035843751584,
+DBSCAN_eps0.099_min5,DBSCAN,"{'eps': 0.099, 'min_samples': 5}",10,24.1,75.9,clustered products only,0.630817820588914,963.6927860800048,0.48091802884033735,
+DBSCAN_eps0.099_min10,DBSCAN,"{'eps': 0.099, 'min_samples': 10}",6,31.6,68.4,clustered products only,0.5730852926719008,1730.4841099060297,0.3941812540377545,
+DBSCAN_eps0.118_min5,DBSCAN,"{'eps': 0.118, 'min_samples': 5}",10,19.8,80.2,clustered products only,0.4887059355014521,914.5712185856835,0.5932500535578956,
+DBSCAN_eps0.118_min10,DBSCAN,"{'eps': 0.118, 'min_samples': 10}",5,27.4,72.6,clustered products only,0.7962558409705003,1816.021821473652,0.25471677489734773,
+DBSCAN_eps0.121_min5,DBSCAN,"{'eps': 0.121, 'min_samples': 5}",12,18.5,81.5,clustered products only,0.45446392274699043,776.6642774000311,0.5684282139870149,
+DBSCAN_eps0.121_min10,DBSCAN,"{'eps': 0.121, 'min_samples': 10}",5,27.0,73.0,clustered products only,0.7954554418527621,1820.2367086919626,0.2569734319469733,
+DBSCAN_eps0.161_min5,DBSCAN,"{'eps': 0.161, 'min_samples': 5}",9,14.5,85.5,clustered products only,0.654068642888658,1012.4211983525539,0.35511259228055275,
+DBSCAN_eps0.161_min10,DBSCAN,"{'eps': 0.161, 'min_samples': 10}",5,19.1,80.9,clustered products only,0.7817254053942365,1826.0460300926452,0.2979574118407238,
+DBSCAN_eps0.185_min5,DBSCAN,"{'eps': 0.185, 'min_samples': 5}",9,13.0,87.0,clustered products only,0.6533192124282569,1024.5440841806446,0.36431654540465847,
+DBSCAN_eps0.185_min10,DBSCAN,"{'eps': 0.185, 'min_samples': 10}",5,17.0,83.0,clustered products only,0.7780235661101919,1847.5611660621964,0.3069154729439978,
+DBSCAN_eps0.312_min5,DBSCAN,"{'eps': 0.312, 'min_samples': 5}",10,8.5,91.5,clustered products only,0.7666682412213138,907.5310577050736,0.3187213530802645,
+DBSCAN_eps0.312_min10,DBSCAN,"{'eps': 0.312, 'min_samples': 10}",7,11.5,88.5,clustered products only,0.7674852792089141,1279.9426751758283,0.3156762720442345,
+DBSCAN_eps1.414_min5,DBSCAN,"{'eps': 1.414, 'min_samples': 5}",11,7.5,92.5,clustered products only,0.7648088581492124,822.7511433461215,0.33528827199991207,
+DBSCAN_eps1.414_min10,DBSCAN,"{'eps': 1.414, 'min_samples': 10}",8,9.5,90.5,clustered products only,0.7645830344100804,1118.0975187465463,0.3433675779660474,
+DBSCAN_eps1.415_min5,DBSCAN,"{'eps': 1.415, 'min_samples': 5}",1,1.0,99.0,clustered products only,,,,
+DBSCAN_eps1.415_min10,DBSCAN,"{'eps': 1.415, 'min_samples': 10}",1,1.1,98.9,clustered products only,,,,
+DBSCAN_eps1.416_min5,DBSCAN,"{'eps': 1.416, 'min_samples': 5}",1,0.3,99.7,clustered products only,,,,
+DBSCAN_eps1.416_min10,DBSCAN,"{'eps': 1.416, 'min_samples': 10}",1,0.3,99.7,clustered products only,,,,
